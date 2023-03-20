@@ -46,6 +46,7 @@ int main()
 			cout << "Masukan Tinggi = ";
 			cin >> tinggi;
 			cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
+			break;
 		case 4:
 			break;
 		default:

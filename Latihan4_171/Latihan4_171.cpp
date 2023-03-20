@@ -44,10 +44,17 @@ int main()
 			cout << "Masukan Alas = ";
 			cin >> alas;
 			cout << "Masukan Tinggi = ";
-			cint
+			cin >> tinggi;
+			cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
+		case 4:
+			break;
+		default:
+			cout << "PILIHAN SALAH" << endl;
+			break;
+
 
 		}
 
 
-	}
+	} 
 }
